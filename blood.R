@@ -1,0 +1,7 @@
+training <- read.csv("Warm_Up_Predict_Blood_Donations_-_Traning_Data.csv")
+str(training)
+pairs(training)
+cor(training)
+boxplot(training$Total.Volume.Donated..c.c..)
+hist(training$Total.Volume.Donated..c.c..)
+training<-training(,-1)
